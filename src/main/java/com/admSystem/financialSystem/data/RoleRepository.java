@@ -1,11 +1,10 @@
 
-
 package com.admSystem.financialSystem.data;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EntradasSaidasRepository extends JpaRepository<EntradasSaidasEntity, Long>{
-
+public interface RoleRepository extends JpaRepository<RoleEntity, Long>{
+   
 }
