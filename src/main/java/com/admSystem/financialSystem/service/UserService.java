@@ -11,6 +11,7 @@ public class UserService {
      /*metodo para criar o usuário*/
     public UserEntity createUser(UserEntity user){
         user.setId(null);
+        user.setRoles("USER");
         userRepo.save(user);
         return user;
     }
