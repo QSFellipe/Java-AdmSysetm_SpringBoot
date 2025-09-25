@@ -4,7 +4,9 @@ import com.admSystem.financialSystem.data.EntradasSaidasEntity;
 import com.admSystem.financialSystem.data.EntradasSaidasRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class EntradasSaidasService {
     @Autowired
     EntradasSaidasRepository entradasSaidasRepo;
