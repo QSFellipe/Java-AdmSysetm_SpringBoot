@@ -48,7 +48,7 @@ public class UserService {
         return false;
     }
 
-    /*metodo get para identificação do user dentro do sistema*/
+    /*metodo get para identificação do user dentro do banco de dados*/
     public UserEntity getUserId(Long userId) {
         return userRepository.findById(userId).orElse(null);
     }
