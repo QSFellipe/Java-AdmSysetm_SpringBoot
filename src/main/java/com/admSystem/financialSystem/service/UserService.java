@@ -38,7 +38,7 @@ public class UserService {
     
     /*metodo para validar o usuário*/
     public boolean validateLogin(String username, String password) {
-        Optional<UserEntity> userOpt = userRepository.findByUsername(username);
+        Optional<UserEntity> userOpt = userRepository.findByUserName(username);
 
         if (userOpt.isPresent()) {
             UserEntity user = userOpt.get();
