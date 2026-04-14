@@ -1,11 +1,144 @@
-
 <html>
+
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <script src="https://kit.fontawesome.com/7b3f30d431.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <title>Controle Certo</title>
     </head>
+
     <body>
-        <div>TODO write content</div>
+
+        <header class="header">
+            <img src="img/logo.png" alt="Logo" class="logo">
+
+            <nav>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn btn-outline-light btn-custom">Entrar</a>
+                    <a href="register.html" class="btn btn-outline-light btn-custom">Cadastro</a>
+                </div>
+            </nav>
+        </header>
+
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="img/113894.jpg">
+
+                    <div>
+                        <h1>Controle Certo para suas finanças</h1>
+                        <p>Organize suas receitas, despesas e tenha total visão do seu dinheiro</p>
+                        <button onclick="window.location.href = 'login.html'">Começar agora</button>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="img/314177.jpg">
+
+                    <div>
+                        <h1>Decisões mais inteligentes</h1>
+                        <p>Com o Controle Certo, visualize relatórios simples e saiba para onde seu dinheiro está indo</p>
+
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="img/194021.jpg">
+
+                    <div>
+                        <h1>Segurança que você pode confiar</h1>
+                        <p>Seus dados protegidos com o Controle Certo, garantindo privacidade e tranquilidade</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="features">
+
+            <h2>Por que usar o Controle Certo?</h2>
+
+            <div class="features-container">
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-wallet"></i>
+                    <h3>Controle financeiro</h3>
+                    <p>Gerencie receitas e despesas de forma simples e eficiente.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Relatórios inteligentes</h3>
+                    <p>Visualize gráficos e entenda melhor seus gastos.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Segurança</h3>
+                    <p>Seus dados protegidos com total segurança.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="how-it-works">
+
+            <h2>Como funciona?</h2>
+
+            <div class="steps">
+
+                <div class="step">
+                    <span>1</span>
+                    <h3>Cadastre-se</h3>
+                    <p>Crie sua conta gratuitamente.</p>
+                </div>
+
+                <div class="step">
+                    <span>2</span>
+                    <h3>Adicione suas finanças</h3>
+                    <p>Registre receitas e despesas.</p>
+                </div>
+
+                <div class="step">
+                    <span>3</span>
+                    <h3>Acompanhe tudo</h3>
+                    <p>Veja relatórios e evolua financeiramente.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="cta">
+
+            <h2>Comece agora com o Controle Certo</h2>
+            <p>Organize sua vida financeira de forma simples.</p>
+
+            <div>
+                <a href="login.html" class="btn-login">Entrar</a>
+                <a href="register.html" class="btn-register">Criar conta</a>
+            </div>
+
+        </section>
+
+
     </body>
+
 </html>
