@@ -40,7 +40,6 @@ public class UserServiceTest {
 
         UserEntity user = new UserEntity();
         user.setId(999L);
-        user.setUserName("usuarioTeste");
         user.setEmail("teste@email.com");
         user.setPassword(rawPassword);
         user.setRoles(new HashSet<>());
@@ -51,7 +50,6 @@ public class UserServiceTest {
 
         UserEntity savedUser = new UserEntity();
         savedUser.setId(1L);
-        savedUser.setUserName("usuarioTeste");
         savedUser.setEmail("teste@email.com");
         savedUser.setPassword(encodedPassword);
         savedUser.setRoles(new HashSet<>());
